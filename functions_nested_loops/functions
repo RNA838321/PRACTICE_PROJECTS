@@ -1,0 +1,51 @@
+#include <stdio.h>
+
+// functions to add, multiply, divide ans sum two numbers
+//Author: Akong Rodney 
+//Date:11/21/22
+
+#include <stdio.h>
+int sum();
+int mult();
+int add();
+int divide();
+
+int main() {
+   sum();
+   mult();
+   divide();
+   add();
+    return 0;
+}
+int sum()
+{
+    int a = 4;
+    int b = 7;
+    int sum = 0;
+    sum = a + b;
+    printf("%d\n",sum);
+}
+int mult()
+{
+    int c = 9;
+    int d = 10;
+    int multiply = 0;
+    multiply = c * d;
+    printf ("%i\n",multiply);
+}
+int add()
+{
+    int e = 10;
+    int f = 56;
+    int add = 0;
+    add = e + f;
+    printf ("%i\n", add);
+}
+int divide()
+{
+    int g = 78;
+    int h = 2;
+    int div = 0;
+    div = g / h;
+    printf("%d\n",div); 
+}
