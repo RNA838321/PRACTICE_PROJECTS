@@ -1,0 +1,18 @@
+#include <stdio.h>
+int sum();
+
+void main()
+{
+    int s;
+    s = sum();
+    printf("%d\n",s);
+    return 0;
+}
+int sum()
+{
+    int c,d;
+    printf("please enter two integers for a & b\n" );
+    scanf("%d%d\",&c,&d);
+    int sum = 0;
+    return sum = c + d;
+}
